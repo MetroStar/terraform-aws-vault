@@ -6,7 +6,7 @@
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
 
-BOX_IMAGE = "plus3it/spel-minimal-centos-7"
+BOX_IMAGE = "MetroStar/spel-minimal-centos-7"
 NODE_COUNT = 1
 
 Vagrant.configure("2") do |config|

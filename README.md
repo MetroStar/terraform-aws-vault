@@ -10,25 +10,25 @@ This Terraform module installs and configures the Hashicorp Vault cluster with H
 
 This module uses AWS DynamoDB as the storage backend to persist Vault's data. AWS DynamoDB storage backend supports High Availablity (HA) and also Point-In-Time-Recovery ([PITR](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/PointInTimeRecovery_Howitworks.html)) capability.
 
-This module, by default, deploys a Watchmaker Linux AutoScaling Group with a minimum group size of 2 instances running on `STIG-Partitioned Enterprise Linux (SPEL) Centos 7` Amazon Machine Image (AMI) distributed by [Plus3 IT Systems](https://github.com/plus3it). `spel` is a project that helps create and publish Enterprise Linux images that are partitioned according to the [DISA STIG](http://iase.disa.mil/stigs/os/unix-linux/Pages/red-hat.asp). To learn more about `spel` visit our project space [here](https://github.com/plus3it/spel).
+This module, by default, deploys a Watchmaker Linux AutoScaling Group with a minimum group size of 2 instances running on `STIG-Partitioned Enterprise Linux (SPEL) Centos 7` Amazon Machine Image (AMI) distributed by [Plus3 IT Systems](https://github.com/MetroStar). `spel` is a project that helps create and publish Enterprise Linux images that are partitioned according to the [DISA STIG](http://iase.disa.mil/stigs/os/unix-linux/Pages/red-hat.asp). To learn more about `spel` visit our project space [here](https://github.com/MetroStar/spel).
 
-* For more information on using `terraform-aws-watchmaker`, go to <https://registry.terraform.io/modules/plus3it/watchmaker>.
+* For more information on using `terraform-aws-watchmaker`, go to <https://registry.terraform.io/modules/MetroStar/watchmaker>.
 * For more information on installing and using `watchmaker`, go to <https://watchmaker.readthedocs.io>.
 
 ## How To Navigate This Module
 
 This repo is structured as follows:
 
-* [Root](https://github.com/plus3it/terraform-aws-vault/tree/master): This folder contains a standalone, reusable, production-grade module that you can use to deploy a single Vault instance or a cluster of Vault instances that are partitioned according to the [DISA STIG[(http://iase.disa.mil/stigs/os/unix-linux/Pages/red-hat.aspx) with the help of `[watchmaker](https://github.com/plus3it/watchmaker)`.
-* [Modules](https://github.com/plus3it/terraform-aws-vault/tree/master/modules/): The folder contains an IAM module that manages the IAM Roles and permissions required for this module to work correctly.
+* [Root](https://github.com/MetroStar/terraform-aws-vault/tree/master): This folder contains a standalone, reusable, production-grade module that you can use to deploy a single Vault instance or a cluster of Vault instances that are partitioned according to the [DISA STIG[(http://iase.disa.mil/stigs/os/unix-linux/Pages/red-hat.aspx) with the help of `[watchmaker](https://github.com/MetroStar/watchmaker)`.
+* [Modules](https://github.com/MetroStar/terraform-aws-vault/tree/master/modules/): The folder contains an IAM module that manages the IAM Roles and permissions required for this module to work correctly.
 
-* [Policies](https://github.com/plus3it/terraform-aws-vault/tree/master/policies): This folder contains policies that can be referred to by the resources.
+* [Policies](https://github.com/MetroStar/terraform-aws-vault/tree/master/policies): This folder contains policies that can be referred to by the resources.
 
-* [Salt](https://github.com/plus3it/terraform-aws-vault/tree/master/salt): This folder contains the `saltstack` modules and states to apply the pre-defined configuration to Vault instances.
+* [Salt](https://github.com/MetroStar/terraform-aws-vault/tree/master/salt): This folder contains the `saltstack` modules and states to apply the pre-defined configuration to Vault instances.
 
-* [Scripts](https://github.com/plus3it/terraform-aws-vault/tree/master/scripts): This folder contains the scripts to help with bootstrapping the application by retrieving the salt modules and pillar information from S3 and then run `salt-call` on the local minion.
+* [Scripts](https://github.com/MetroStar/terraform-aws-vault/tree/master/scripts): This folder contains the scripts to help with bootstrapping the application by retrieving the salt modules and pillar information from S3 and then run `salt-call` on the local minion.
 
-* [Tests](https://github.com/plus3it/terraform-aws-vault/tree/master/tests): This folder contains the test cases as well as examples of how to implement this module.
+* [Tests](https://github.com/MetroStar/terraform-aws-vault/tree/master/tests): This folder contains the test cases as well as examples of how to implement this module.
 
 ## Usage
 

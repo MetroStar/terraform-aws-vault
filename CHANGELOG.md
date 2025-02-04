@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### 0.0.10
 
-**Commit Delta**: [Change from 0.0.9 release](https://github.com/plus3it/terraform-aws-vault/compare/0.0.9...0.0.10)
+**Commit Delta**: [Change from 0.0.9 release](https://github.com/MetroStar/terraform-aws-vault/compare/0.0.9...0.0.10)
 
 **Released**: 2020.02.26
 
@@ -16,7 +16,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### 0.0.9
 
-**Commit Delta**: [Change from 0.0.8 release](https://github.com/plus3it/terraform-aws-vault/compare/0.0.8...0.0.9)
+**Commit Delta**: [Change from 0.0.8 release](https://github.com/MetroStar/terraform-aws-vault/compare/0.0.8...0.0.9)
 
 **Released**: 2020.02.24
 
@@ -26,7 +26,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### 0.0.8
 
-**Commit Delta**: [Change from 0.0.7 release](https://github.com/plus3it/terraform-aws-vault/compare/0.0.7...0.0.8)
+**Commit Delta**: [Change from 0.0.7 release](https://github.com/MetroStar/terraform-aws-vault/compare/0.0.7...0.0.8)
 
 **Released**: 2020.01.03
 
@@ -36,7 +36,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### 0.0.7
 
-**Commit Delta**: [Change from 0.0.6 release](https://github.com/plus3it/terraform-aws-vault/compare/0.0.6...0.0.7)
+**Commit Delta**: [Change from 0.0.6 release](https://github.com/MetroStar/terraform-aws-vault/compare/0.0.6...0.0.7)
 
 **Released**: 2020.01.03
 
@@ -48,18 +48,18 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### 0.0.6
 
-**Commit Delta**: [Change from 0.0.5 release](https://github.com/plus3it/terraform-aws-vault/compare/0.0.5...0.0.6)
+**Commit Delta**: [Change from 0.0.5 release](https://github.com/MetroStar/terraform-aws-vault/compare/0.0.5...0.0.6)
 
 **Released**: 2019.11.14
 
 **Summary**:
 
-* Fixed bug [#10](https://github.com/plus3it/terraform-aws-vault/issues/10) addressing forward slashes are being removed from `path`.
+* Fixed bug [#10](https://github.com/MetroStar/terraform-aws-vault/issues/10) addressing forward slashes are being removed from `path`.
 * Changed `changes` output for the the `synced` salt state modules.
 
 ### 0.0.5
 
-**Commit Delta**: [Change from 0.0.4 release](https://github.com/plus3it/terraform-aws-vault/compare/0.0.4...0.0.5)
+**Commit Delta**: [Change from 0.0.4 release](https://github.com/MetroStar/terraform-aws-vault/compare/0.0.4...0.0.5)
 
 **Released**: 2019.11.04
 
@@ -69,7 +69,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### 0.0.4
 
-**Commit Delta**: [Change from 0.0.3 release](https://github.com/plus3it/terraform-aws-vault/compare/0.0.3...0.0.4)
+**Commit Delta**: [Change from 0.0.3 release](https://github.com/MetroStar/terraform-aws-vault/compare/0.0.3...0.0.4)
 
 **Released**: 2019.11.04
 
@@ -80,7 +80,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### 0.0.3
 
-**Commit Delta**: [Change from 0.0.2 release](https://github.com/plus3it/terraform-aws-vault/compare/0.0.2...0.0.3)
+**Commit Delta**: [Change from 0.0.2 release](https://github.com/MetroStar/terraform-aws-vault/compare/0.0.2...0.0.3)
 
 **Released**: 2019.11.01
 
@@ -91,7 +91,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### 0.0.2
 
-**Commit Delta**: [Change from 0.0.1 release](https://github.com/plus3it/terraform-aws-vault/compare/0.0.1...0.0.2)
+**Commit Delta**: [Change from 0.0.1 release](https://github.com/MetroStar/terraform-aws-vault/compare/0.0.1...0.0.2)
 
 **Released**: 2019.10.31
 
@@ -103,7 +103,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### 0.0.1
 
-**Commit Delta**: [Change from 0.0.0 release](https://github.com/plus3it/terraform-aws-vault/compare/0.0.0...0.0.1)
+**Commit Delta**: [Change from 0.0.0 release](https://github.com/MetroStar/terraform-aws-vault/compare/0.0.0...0.0.1)
 
 **Released**: 2019.10.31
 

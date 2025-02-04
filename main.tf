@@ -235,7 +235,7 @@ data "aws_route53_zone" "this" {
 }
 
 module "certificate" {
-  source = "git::https://github.com/plus3it/terraform-aws-tardigrade-acm.git?ref=1.0.2"
+  source = "git::https://github.com/MetroStar/terraform-aws-tardigrade-acm.git?ref=1.0.2"
 
   create_acm_certificate = var.certificate_arn == null
 
@@ -432,7 +432,7 @@ resource "aws_appautoscaling_policy" "this" {
 
 # Manage autoscaling group
 module "autoscaling_group" {
-  source = "git::https://github.com/plus3it/terraform-aws-watchmaker//modules/lx-autoscale?ref=2.2.0"
+  source = "git::https://github.com/MetroStar/terraform-aws-watchmaker//modules/lx-autoscale?ref=2.2.0"
 
   Name            = var.name
   OnFailureAction = ""
